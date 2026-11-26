@@ -1,0 +1,82 @@
+
+
+.number {
+    text-align: center;
+}
+
+
+.text {
+    text-align: left;
+}
+
+.chkbox {
+    text-align: center;
+}
+
+#table_container {
+    font-family: Calibri, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+th {
+    background-color: #0787bd;
+    color: white;
+    text-align: center;
+}
+
+#container_summary {
+    display: grid;
+    grid-template-columns: 30% 15% 17% 28% 10%;
+    background-color: #eeeeee;
+    padding: 5px;
+    font-family: Calibri, sans-serif;
+    font-size: 13px;
+}
+
+#p1 {
+    grid-column: 1;
+    margin: 5px;
+}
+
+#p3 {
+    grid-column: 4 / 6;
+    margin: 5px;
+}
+
+#form_container {
+    width: 80%;
+    margin: auto;
+    font-family: Calibri, sans-serif;
+}
+
+/* Organisation des champs */
+.form_group {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Labels */
+.form_label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form_field {
+    width: 120px;
+    padding: 3px;
+}
+

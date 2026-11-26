@@ -1,0 +1,39 @@
+
+
+.number {
+    text-align: center;
+}
+
+
+.text {
+    text-align: left;
+}
+
+.chkbox {
+    text-align: center;
+}
+
+#table_container {
+    font-family: Calibri, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+th {
+    background-color: #0787bd;
+    color: white;
+    text-align: center;
+}

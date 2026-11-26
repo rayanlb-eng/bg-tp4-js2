@@ -71,4 +71,12 @@ Vous allez mettre en pratique ces notions à travers la réalisation d’une **m
 ## 📎 Lien d’assignement
 Le lien GitHub Classroom est disponible sur **Google Classroom**.
 
+---
 
+## Étape 7 — Observation du flux réseau
+
+Ouvrir `etape6/index.html` dans Chrome via un serveur HTTP local, puis ouvrir les outils de développement avec **F12**. Dans **Réseau** (*Network*), cocher **Désactiver le cache** et actualiser la page. Sélectionner `script.js` et ouvrir **Aperçu** (*Preview*). L’onglet **Réponse** (*Response*) affiche aussi le texte du script.
+
+Lors de la vérification, Chrome a reçu `index.html`, `style.css` et `script.js` avec le statut **200 OK**. La réponse de `script.js` contient le code source complet.
+
+Le navigateur doit recevoir le JavaScript pour l’exécuter. Toute personne qui charge la page peut donc lire ce code et récupérer les mots de passe ou clés secrètes qui y seraient écrits. Ces secrets doivent rester sur le serveur, qui les utilise pour effectuer les opérations nécessaires et renvoie au navigateur les données dont la page a besoin.

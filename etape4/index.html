@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp4 js2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js" defer></script>
+
+<body>
+    <!-- onclick : événement JavaScript (slides 52–54). -->
+    <div id="table_container">
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>N°</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Points</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+
+
+        </table>
+        <div id="container_summary">
+
+            <p id="p1">0 ligne(s)</p>
+
+            <p id="p2"></p>
+
+            <p id="p3">Total point(s)= 0</p>
+
+        </div>
+
+        <button id="btn" onclick="doInsert('nom', 'prenom', 10)">ajouter</button>
+        <button id="btn2" onclick="consoleTableau()">console tableau</button>
+
+    </div>
+
+</body>
+
+</html>
+
